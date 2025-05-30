@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function HomePage() {
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
@@ -8,7 +10,7 @@ export default function HomePage() {
         Explore the wild heart of Uganda through unforgettable safaris designed for kids, families, and schools. Travel with purpose. Experience with joy.
       </p>
       <div style={{ marginTop: '2rem' }}>
-        <a href="/book">
+        <Link href="/book">
           <button
             style={{
               padding: '1rem',
@@ -22,7 +24,7 @@ export default function HomePage() {
           >
             Book a Safari 🐘
           </button>
-        </a>
+        </Link>
       </div>
     </main>
   );

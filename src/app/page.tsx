@@ -8,7 +8,16 @@ export default function Home() {
         Explore the wild heart of Uganda through unforgettable safaris designed for kids, families, and schools. Travel with purpose. Experience with joy.
       </p>
       <div style={{ marginTop: '2rem' }}>
-        <button style={{ padding: '1rem', background: '#ec4899', color: 'white', border: 'none', borderRadius: '8px', cursor: 'pointer' }}>
+        <button
+          style={{
+            padding: '1rem',
+            background: '#ec4899',
+            color: 'white',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+          }}
+        >
           Book a Safari 🐘
         </button>
       </div>

@@ -1,4 +1,4 @@
-export default function Home() {
+export default function HomePage() {
   return (
     <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
       <h1 style={{ fontSize: '2.5rem', color: '#0c4a34' }}>
@@ -8,18 +8,21 @@ export default function Home() {
         Explore the wild heart of Uganda through unforgettable safaris designed for kids, families, and schools. Travel with purpose. Experience with joy.
       </p>
       <div style={{ marginTop: '2rem' }}>
-        <button
-          style={{
-            padding: '1rem',
-            background: '#ec4899',
-            color: 'white',
-            border: 'none',
-            borderRadius: '8px',
-            cursor: 'pointer',
-          }}
-        >
-          Book a Safari 🐘
-        </button>
+        <a href="/book">
+          <button
+            style={{
+              padding: '1rem',
+              background: '#ec4899',
+              color: 'white',
+              border: 'none',
+              borderRadius: '8px',
+              cursor: 'pointer',
+              fontSize: '1rem',
+            }}
+          >
+            Book a Safari 🐘
+          </button>
+        </a>
       </div>
     </main>
   );
